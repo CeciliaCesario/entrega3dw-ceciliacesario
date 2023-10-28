@@ -17,18 +17,22 @@
 }
 
 .carousel_vertical_m{ 
-    @include desktop{
-        display: none;    
+    @include desktop {
+        display: none; 
+       
     }
         
+}
+        
 
- }
-    
 
 .carousel_horizontal_m{
-    @include mobile{
+    @include mobile{ 
         display: none;
+       
+    }
+        
     }
         
 
-    }
+    

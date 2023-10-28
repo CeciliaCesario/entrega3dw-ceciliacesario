@@ -1,0 +1,98 @@
+
+/*componentes varios*/
+
+/*scroll*/
+.scrolls {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 500px;
+    white-space:nowrap;
+}
+
+/*componentes sobremi*/
+
+.sobremi{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin-top: $tam-50;
+    font-size: small;
+}
+
+#imagensobremi{
+    size: 1000px;
+    margin: 0px 50px 50px 30px;
+}
+
+.sobremip{
+    width: 100%;
+    text-align: left;
+    margin-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.video-m{
+    position: center;
+}
+
+/*boton shop*/
+
+.shop_boton{
+    display: inline-block;
+    background-position-x: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: $tam-20;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    padding: 5px 10px;
+}
+
+.imageDiv img {
+    box-shadow: 1px 1px 10px #000000;
+    margin: 20px;
+    max-height: 500px;
+    cursor: pointer;
+    display:inline-block;
+    *display:inline;/* For IE7*/
+    *zoom:1;/* For IE7*/
+    vertical-align:top;
+ }
+
+ .objetos{
+    padding: $tam-10;
+    margin: 1rem;
+    align-items: center;
+    
+ }
+
+ #main_muestras{
+    display: inline-block;
+    padding: 100px;
+    position: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+
+main ul img{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-m {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.titulodos{
+   @extend %titulo2;
+}
+

@@ -1,0 +1,50 @@
+/*card muestra*/
+.card-muestra-m{
+    color: $bg-ppl;
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: auto;
+    margin-left: $tam-20;
+    border-width: 2px;
+}
+
+.cardmuestra-title-m{
+    color:$bg-ppl;
+    font-family:'Montserrat Alternates', sans-serif;
+    padding: $tam-10;
+}
+
+.cardmuestra-body-m{
+    border-color: $bg-ppl;
+    border-width: 2px;
+    
+}
+
+.vermaspage{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.card-text-m{
+    font-family: 'Poppins', sans-serif; 
+}
+    
+.card-title-m{
+    font-family: 'Poppins', sans-serif; 
+}
+
+/*card muestra*/
+.shopcard{
+    color:$bg-ppl;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: auto;
+    margin-left: 20px;
+}
+
+.imgshop-m{
+    padding-top: 10px;
+}

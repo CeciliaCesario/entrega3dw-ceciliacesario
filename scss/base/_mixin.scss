@@ -1,0 +1,17 @@
+/* media queries*/
+
+@mixin mobile {
+    @media screen and (max-width: 992px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (min-width: 992px) {
+        @content;
+    }
+}
+
+
+
+/* sirve para parametros no definidos aun para llamar en una .clase @include position y te trae todas las propiedades. min 45 sass2*/

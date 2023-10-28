@@ -1,0 +1,317 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ol ul {
+  list-style: none;
+}
+ol ul a {
+  text-decoration: none;
+}
+
+/*Colores en rgb */
+/*Tamanos en px */
+/*tipografía debería agregar*/
+/*font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+/* para llamar listas nth aparece parentesis 1ro valor, 2do # de la lista. min 57 sass*/
+/* podes mezclar diferentes valores llamas con map-get parentesis pones titulo y valor al lado min 1:04 sass y lo llamo desde xej index*/
+.header_index {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-position: center;
+}
+
+.titulosite {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-position: center;
+}
+
+.titulodos {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* para llamar en una .clase @extend %disposicion y te trae todas las propiedades. min 1:21 sass*/
+/* media queries*/
+/* sirve para parametros no definidos aun para llamar en una .clase @include position y te trae todas las propiedades. min 45 sass2*/
+.focus-in-contract {
+  -webkit-animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.carousel-m {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  border-color: black;
+}
+
+.destacado {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 992px) {
+  .carousel_vertical_m {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .carousel_horizontal_m {
+    display: none;
+  }
+}
+
+header nav ul li {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  margin-inline-start: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-position-x: center;
+}
+
+.navbar-m {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 40px;
+}
+
+.nav-item-m {
+  color: rgb(255, 255, 255);
+}
+
+.dropdown-item:hover {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+.header-main {
+  height: 100vh;
+}
+
+@media screen and (max-width: 376px) {
+  .header-main {
+    height: initial;
+  }
+}
+.navbar-font-m {
+  color: white;
+}
+
+.toggler-m {
+  background-image: url("../../imagenes/home/vector.png");
+  margin-left: 10px;
+}
+
+.footer-m {
+  background-color: rgb(6, 6, 6);
+  background-size: 1440px 50px;
+  margin-top: 50px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.footer-m a img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-text-m {
+  color: rgb(255, 255, 255);
+  transition: color 0.15s ease-in-out;
+  background-color: 0.15s ease-in-out;
+  border-color: 0.15s ease-in-out;
+}
+
+/*card muestra*/
+.card-muestra-m {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: auto;
+  margin-left: 20px;
+  border-width: 2px;
+}
+
+.cardmuestra-title-m {
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat Alternates", sans-serif;
+  padding: 10px;
+}
+
+.cardmuestra-body-m {
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+}
+
+.vermaspage {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.card-text-m {
+  font-family: "Poppins", sans-serif;
+}
+
+.card-title-m {
+  font-family: "Poppins", sans-serif;
+}
+
+/*card muestra*/
+.shopcard {
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: auto;
+  margin-left: 20px;
+}
+
+.imgshop-m {
+  padding-top: 10px;
+}
+
+/*componentes varios*/
+/*scroll*/
+.scrolls {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 500px;
+  white-space: nowrap;
+}
+
+/*componentes sobremi*/
+.sobremi {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin-top: 50px;
+  font-size: small;
+}
+
+#imagensobremi {
+  size: 1000px;
+  margin: 0px 50px 50px 30px;
+}
+
+.sobremip {
+  width: 100%;
+  text-align: left;
+  margin-left: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.video-m {
+  position: center;
+}
+
+/*boton shop*/
+.shop_boton {
+  display: inline-block;
+  background-position-x: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.imageDiv img {
+  box-shadow: 1px 1px 10px #000000;
+  margin: 20px;
+  max-height: 500px;
+  cursor: pointer;
+  display: inline-block;
+  *display: inline; /* For IE7*/
+  *zoom: 1; /* For IE7*/
+  vertical-align: top;
+}
+
+.objetos {
+  padding: 10px;
+  margin: 1rem;
+  align-items: center;
+}
+
+#main_muestras {
+  display: inline-block;
+  padding: 100px;
+  position: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+main ul img {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-m {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.form-label-m {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-primary-m {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  border-color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: grey;
+  border-color: rgb(0, 0, 0);
+}
+
+/* siempre base antes que componentes*/
+
+/*# sourceMappingURL=style.css.map */

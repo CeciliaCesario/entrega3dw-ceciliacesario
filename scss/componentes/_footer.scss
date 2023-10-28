@@ -1,0 +1,26 @@
+.footer-m{
+    background-color: map-get($piedepagina, fondo);
+    background-size: map-get($piedepagina, tamanio);
+    margin-top: map-get($piedepagina, margenarriba);
+    padding: map-get($piedepagina, relleno );
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: $bg-sec;
+    text-align: center;
+    
+
+    a{
+        img{
+            padding-left: $tam-10;
+            padding-right: $tam-10;
+        }
+    }
+
+}
+
+.footer-text-m{
+    color: $bg-sec;
+    transition: color .15s ease-in-out;
+    background-color: .15s ease-in-out;border-color: .15s ease-in-out;
+
+}

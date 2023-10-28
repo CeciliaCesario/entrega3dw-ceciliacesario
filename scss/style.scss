@@ -1,0 +1,16 @@
+@import '../scss/base/resets';
+@import '../scss/base/vars';
+@import '../scss/base/listas';
+@import '../scss/base/maps';
+@import '../scss/base/extend';
+@import '../scss/base/colores';
+@import '../scss/base/mixin';
+@import '../scss/componentes/index';
+@import '../scss/componentes/header';
+@import '../scss/componentes/footer';
+@import '../scss/componentes/cards';
+@import '../scss/componentes/bscambios';
+@import '../scss/componentes/varios';
+@import '../scss/componentes/forms';
+
+/* siempre base antes que componentes*/

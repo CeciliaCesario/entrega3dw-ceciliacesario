@@ -16,7 +16,7 @@
     font-family: 'Poppins', sans-serif;
     display: flex;
     margin-top: $tam-50;
-    font-size: small;
+    font-size: x-small;
 }
 
 #imagensobremi{
@@ -33,6 +33,10 @@
 
 .video-m{
     position: center;
+}
+
+.titulo2{
+    @extend %titulo2;
 }
 
 /*boton shop*/
@@ -94,5 +98,10 @@ main ul img{
 
 .titulodos{
    @extend %titulo2;
+}
+
+.titulotres{
+    @extend %titulo3;
+    
 }
 

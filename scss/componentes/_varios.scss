@@ -67,6 +67,11 @@
     padding: $tam-10;
     margin: 1rem;
     align-items: center;
+    border-image:repeat;
+    border-color: #000000;
+    border-radius: 0.2cm;
+    box-shadow: 0 0 5px 2px rgba(50,50,50, 0.25);
+    
     
  }
 

@@ -219,7 +219,7 @@ header nav ul li {
   grid-template-columns: auto auto auto;
   padding: auto;
   margin-left: 20px;
-  border-width: 2px;
+  border-width: 6px;
 }
 
 .cardmuestra-title-m {
@@ -246,7 +246,7 @@ header nav ul li {
   font-family: "Poppins", sans-serif;
 }
 
-/*card muestra*/
+/*card shop*/
 .shopcard {
   color: rgb(0, 0, 0);
   font-family: "Poppins", sans-serif;

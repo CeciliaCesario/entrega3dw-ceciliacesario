@@ -307,7 +307,6 @@ header nav ul li {
 * ----------------------------------------
 */
 .tarjeta {
-  background: rgb(211, 37, 37);
   display: flex;
   align-items: center;
   justify-content: center;

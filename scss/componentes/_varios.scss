@@ -75,10 +75,21 @@
  }
 
  .flechas-obras{
-    display: flex;
+    display:flex;
     justify-content:center;
     
  }
+
+ .flecha-individual{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+
+
+ }
+ 
+    
+ 
 
  .img-fluid-m{
     width: 98%;
@@ -109,6 +120,12 @@ main ul img{
     margin-top: 30px;
 }
 
+.buttonshop-m{
+    width: 14rem;
+    margin-left: 5rem;
+    
+}
+
 .titulodos{
    @extend %titulo2;
 }
@@ -118,3 +135,7 @@ main ul img{
     
 }
 
+.carrito_items{
+    @extend %disposicion;
+    padding: 2rem;
+}

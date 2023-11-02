@@ -65,11 +65,6 @@ font-family: 'Poppins', sans-serif;*/
 /* para llamar en una .clase @extend %disposicion y te trae todas las propiedades. min 1:21 sass*/
 /* media queries*/
 /* sirve para parametros no definidos aun para llamar en una .clase @include position y te trae todas las propiedades. min 45 sass2*/
-.focus-in-contract {
-  -webkit-animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
 .carousel-m {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -131,8 +126,10 @@ header nav ul li {
   color: white;
 }
 
+/*prueba toggler */
 .toggler-m {
-  background-image: url("../../imagenes/home/vector.png");
+  background-color: black;
+  background-image: url("../imagenes/home/vector.png");
 }
 
 /**
@@ -408,8 +405,17 @@ header nav ul li {
   align-items: center;
   border-image: repeat;
   border-color: #000000;
-  border-radius: 0.2cm;
+  border-radius: 2px;
   box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+}
+
+.flechas-obras {
+  display: flex;
+  justify-content: center;
+}
+
+.img-fluid-m {
+  width: 98%;
 }
 
 #main_muestras {

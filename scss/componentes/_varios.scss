@@ -84,7 +84,6 @@
     border-color: #000000;
     border-radius: 2px;
     box-shadow: 0 0 5px 2px rgba(50,50,50, 0.25);
-    
  }
 
  .flechas-obras{
@@ -131,12 +130,13 @@ main ul img{
 }
 
 .buttonshop-m{
-    width: 14rem;
-    margin-left: 5rem;
+    height: 5rem;
+    font-size: large;
 }
 
 .titulouno{
     @extend %titulo1;
+    margin: 2rem;
  }
 
  .titulodos{
@@ -158,8 +158,9 @@ main ul img{
 }
 
 .carrito_items{
-    @extend %disposicion;
-    padding: 2rem;
+   display: flex;
+   justify-content: center;
+   margin: 2rem;
 }
 
 

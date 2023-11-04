@@ -19,12 +19,6 @@ ol ul a {
 font-family: 'Poppins', sans-serif;*/
 /* para llamar listas nth aparece parentesis 1ro valor, 2do # de la lista. min 57 sass*/
 /* podes mezclar diferentes valores llamas con map-get parentesis pones titulo y valor al lado min 1:04 sass y lo llamo desde xej index*/
-.carrito_items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .header_index {
   color: rgb(0, 0, 0);
   text-align: center;
@@ -502,8 +496,12 @@ main ul img {
 }
 
 .buttonshop-m {
-  width: 14rem;
-  margin-left: 5rem;
+  height: 5rem;
+  font-size: large;
+}
+
+.titulouno {
+  margin: 2rem;
 }
 
 .titulocinco {
@@ -511,7 +509,9 @@ main ul img {
 }
 
 .carrito_items {
-  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
 }
 
 .mapa {

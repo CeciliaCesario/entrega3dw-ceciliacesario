@@ -31,12 +31,24 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.sobremi-parrafo{
+    width:100%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: smaller;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    margin-top: 6rem;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
 .video-m{
     position: center;
 }
 
-.titulo2{
-    @extend %titulo2;
+.titulo3{
+    @extend %titulo3;
 }
 
 /*boton shop*/
@@ -84,23 +96,19 @@
     padding-left: 2rem;
     padding-top: 1rem;
     padding-right: 2rem;
-
-
  }
  
     
- 
-
  .img-fluid-m{
     width: 98%;
  }
+
  #main_muestras{
     display: inline-block;
     padding: 100px;
     position: center;
     margin-left: 100px;
     margin-right: 100px;
-
 }
 
 
@@ -123,19 +131,42 @@ main ul img{
 .buttonshop-m{
     width: 14rem;
     margin-left: 5rem;
-    
 }
 
-.titulodos{
-   @extend %titulo2;
-}
+.titulouno{
+    @extend %titulo1;
+ }
 
 .titulotres{
-    @extend %titulo3;
+   @extend %titulo3;
+}
+
+.titulocuatro{
+    @extend %titulo4;
     
+}
+
+.titulocinco{
+    @extend %titulo5;
 }
 
 .carrito_items{
     @extend %disposicion;
     padding: 2rem;
+}
+
+.visita1{
+    @extend %titulo4;
+    margin: 1rem;
+    padding-top: 2rem;
+}
+
+.visita2{
+    @extend %titulo5;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.mapa{
+    margin: 1rem;
 }

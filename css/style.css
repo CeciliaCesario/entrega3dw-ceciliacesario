@@ -469,7 +469,7 @@ header nav ul li {
 }
 
 .img-fluid-m {
-  width: 98%;
+  max-width: 85% !important;
 }
 
 #main_muestras {

@@ -236,6 +236,8 @@ header nav ul li {
 .footer-m a img {
   padding-left: 10px;
   padding-right: 10px;
+  height: 360;
+  width: 360;
 }
 
 .footer-text-m {

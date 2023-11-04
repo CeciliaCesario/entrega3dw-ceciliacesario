@@ -97,6 +97,11 @@ font-family: 'Poppins', sans-serif;*/
 /* para llamar en una .clase @extend %disposicion y te trae todas las propiedades. min 1:21 sass*/
 /* media queries*/
 /* sirve para parametros no definidos aun para llamar en una .clase @include position y te trae todas las propiedades. min 45 sass2*/
+.titulo-index {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .carousel-m {
   font-family: "Poppins", sans-serif;
   font-weight: 700;

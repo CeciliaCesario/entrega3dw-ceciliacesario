@@ -3,6 +3,9 @@
     
 }
 
+.titulo-index{
+   @extend %titulo1;
+}
 
 .carousel-m{
     font-family:'Poppins', sans-serif;

@@ -45,7 +45,7 @@ header{
 }
 
 .titulosite{
-    @extend %titulo1;
+    @extend %titulosite;
 }
 
 @media screen and (max-width: 376px){

@@ -18,12 +18,24 @@
     
 }
 
+%titulosite{
+    color: $bg-ppl;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-position: center;
+    
+}
+
 
 %titulo1{
     color: $bg-ppl;
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -39,11 +51,11 @@
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 20px;   
+    margin-left: 15px;   
 
 }
 
-%titulo4{
+%titulo3{
     color:$bg-ppl;
     text-align: center;
     font-family:'Montserrat Alternates', sans-serif;
@@ -54,16 +66,26 @@
     
 }
 
-%titulo5{
+%titulo4{
     color:$bg-ppl;
     text-align: center;
     font-family:'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+%titulo5{
+    color:$bg-ppl;
+    text-align: left;
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 30px;
     
 }
-
-
 /* para llamar en una .clase @extend %disposicion y te trae todas las propiedades. min 1:21 sass*/

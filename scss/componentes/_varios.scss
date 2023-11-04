@@ -29,9 +29,10 @@
     text-align: left;
     margin-left: 1rem;
     font-family: 'Poppins', sans-serif;
+    font-size: smaller;
 }
 
-.sobremi-parrafo{
+.sobremi-inspiracion{
     width:100%;
     text-align: left;
     font-family: 'Poppins', sans-serif;
@@ -89,6 +90,7 @@
  .flechas-obras{
     display:flex;
     justify-content:center;
+    margin-bottom: 4rem;
     
  }
 
@@ -137,6 +139,10 @@ main ul img{
     @extend %titulo1;
  }
 
+ .titulodos{
+    @extend %titulo2;
+ }
+
 .titulotres{
    @extend %titulo3;
 }
@@ -148,6 +154,7 @@ main ul img{
 
 .titulocinco{
     @extend %titulo5;
+    margin-left: 2rem;
 }
 
 .carrito_items{
@@ -155,17 +162,6 @@ main ul img{
     padding: 2rem;
 }
 
-.visita1{
-    @extend %titulo4;
-    margin: 1rem;
-    padding-top: 2rem;
-}
-
-.visita2{
-    @extend %titulo5;
-    margin: 1rem;
-    justify-content: center;
-}
 
 .mapa{
     margin: 1rem;

@@ -4,12 +4,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.card-m {
+    margin: 2rem;
+    padding: 2rem;
+}
+
 .btn-primary-m{
     background-color: $bg-ppl;
     color: $bg-sec;
-    margin-bottom: $tam-10;
+    margin: $tam-10;
     border-color: $bg-ppl;
     font-family:'Poppins', sans-serif;
+    
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:focus-visible, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
     color: $bg-sec;

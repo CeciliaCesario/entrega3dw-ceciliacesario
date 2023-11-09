@@ -70,13 +70,39 @@
           <label for="exampleInputPassword1" class="form-label form-label-m">Comentarios:</label>
           <textarea name="comentarios" class="form-control" id="" cols="32" rows="10"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-primary-m">Enviar</button>
+          <button class="btn btn-success btn-primary-m" data-bs-toggle="modal"  data-bs-target="ventanaModal">Enviar</button>
+        
+        <div class="modal fade" id="ventanaModal" tabindex="-1" role="dialog" aria-labelledby="tituloVentana" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 id="tituloVentana">Gracias por tu mensaje</h5>
+                 <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                  <span aria-hidden="true"> &times;</span>
+                 </button>
+              </div>
+              <div class="modal-body">
+                <div class="alert alert-success">
+                  <h5><strong>Nos pondremos en contacto en breve</strong></h5>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-warning" type="button" data-dismiss="modal"> Cerrar
+                </button>
+                <button class="btn btn-success" type="button"> Aceptar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
         </form>
+
+
     </div>
   
     <div class="container-fluid"> 
       <div class="row"> 
-        <div class="col-lg-10 col-md-6 col-xs-8">
+        <div class="col-lg-10 col-md-8 col-xs-8">
           <h2 class="titulodos"> Mi atelier</h2>
           <h3 class="titulocinco"> Conocé mi espacio de inspiración. Escribime y acordamos una cita.</h3>
         <iframe class="mapa" title="mapa de mi atelier" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.425040877597!2d-58.48314152553839!3d-34.56811025561632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb661851de41d%3A0x6797cc691f696a0e!2sDr.%20Pedro%20Ignacio%20Rivera%204400%2C%20C1430BFJ%20CABA!5e0!3m2!1ses!2sar!4v1698950316470!5m2!1ses!2sar" width="800" height="300" style="border:2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

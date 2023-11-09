@@ -133,6 +133,13 @@ main ul img{
     font-size: large;
 }
 
+.buttoncontacto-m{
+    height: 4rem;
+    width: 10rem;
+    display: flex;
+    align-items: end;
+}
+
 .titulouno{
     @extend %titulo1;
     margin: 2rem;
